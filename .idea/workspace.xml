@@ -19,6 +19,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Tests in 'chapter-10.test'.executor": "Run",
     "git-widget-placeholder": "main"
   }
 }]]></component>
