@@ -13,11 +13,11 @@ class NoteTest {
 	@DisplayName("given initial note, my note should be empty")
 	void initialNoteShouldBeEmpty() {
 		TextFile textFile = mock(TextFile.class);
-		when(textFile.read(any())).thenReturn("");
+			when(textFile.read(any())).thenReturn("");
 		Note note = new Note(textFile);
 
 		String expected = "";
-		String actual = note.read();
+			String actual = note.read();
 		assertEquals(expected, actual);
 	}
 
